@@ -11,7 +11,6 @@
   inputs.src-gungnir-master.ref   = "refs/heads/master";
   inputs.src-gungnir-master.owner = "planety";
   inputs.src-gungnir-master.repo  = "gungnir";
-  inputs.src-gungnir-master.dir   = "";
   inputs.src-gungnir-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
