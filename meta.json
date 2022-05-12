@@ -2,13 +2,72 @@
   "name": "gungnir",
   "url": "https://github.com/planety/gungnir",
   "method": "git",
-  "tags": [],
+  "tags": [
+    {
+      "name": "gungnir",
+      "version": "0.1.0",
+      "author": "flywind",
+      "desc": "Cryptographic signing for Nim.",
+      "license": "BSD-3-Clause",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.0.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.1.0"
+    }
+  ],
   "description": "Cryptographic signing for Nim.",
   "license": "BSD-3-Clause",
   "web": "https://github.com/planety/gungnir",
   "refs": [
-    "fatal: unable to access 'https://github.com/planety/gungnir/': Failed to connect to github.com port 443 after 131316 ms: Network is unreachable",
+    "refs/heads/master",
+    "refs/tags/v0.1.0",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "gungnir",
+      "version": "0.1.0",
+      "author": "flywind",
+      "desc": "Cryptographic signing for Nim.",
+      "license": "BSD-3-Clause",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.0.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
